@@ -1,6 +1,6 @@
 {
   "name": "@beppobert/ts-utils",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "",
   "author": {
     "name": "Philipp Dehler"
@@ -29,5 +29,12 @@
   "license": "ISC",
   "devDependencies": {
     "typescript": "^5.3.3"
-  }
+  },
+  "keywords": [
+    "typescript",
+    "utils",
+    "type",
+    "guard",
+    "Object.keys"
+  ]
 }
