@@ -1,0 +1,26 @@
+{
+    "compilerOptions": {
+        "module": "NodeNext",
+        "target": "ESNext",
+        "moduleResolution": "nodenext",
+        "noEmit": false,
+        "skipLibCheck": true,
+        "strict": true,
+        "outDir": "dist",
+        "sourceMap": true,
+        "isolatedModules": true,
+        "esModuleInterop": true,
+        "resolveJsonModule": true,
+        "composite": true,
+        "exactOptionalPropertyTypes": true,
+        "noErrorTruncation": false,
+        "lib": [
+            "ESNext"
+        ]
+    },
+    "exclude": [
+        "node_modules",
+        "dist",
+        "src/**/*.test.ts"
+    ]
+}

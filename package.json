@@ -1,0 +1,33 @@
+{
+  "name": "@beppobert/ts-utils",
+  "version": "0.0.1",
+  "description": "",
+  "author": {
+    "name": "Philipp Dehler"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Beppobert/ts-utils"
+  },
+  "exports": {
+    ".": {
+      "types": "./dist/src/index.d.ts",
+      "import": "./dist/src/index.js",
+      "require": "./dist/src/index.js"
+    }
+  },
+  "files": [
+    "dist",
+    "!*.tsbuildinfo"
+  ],
+  "type": "module",
+  "main": "./dist/src/main.js",
+  "types": "./dist/src/index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^5.3.3"
+  }
+}
